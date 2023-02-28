@@ -3,7 +3,7 @@
 int main(){
     float m1,m2,m3,m4,total,per;
     char grade;
-    printf("Enter the marks of the subjects: ");
+    printf("Enter the marks of the subjects: \n");
     scanf("%f""%f""%f""%f",&m1,&m2,&m3,&m4);
     total=m1+m2+m3+m4;
     per=total/4;
