@@ -3,7 +3,7 @@
 void main()
 {
     int n,sum=0;
-    for(;n!=0;sum+=n){   
+    for(;n!=0;sum+=n) {   
        printf("Enter The Number (0 to Stop) \n");
        scanf("%d",&n);
     } 
