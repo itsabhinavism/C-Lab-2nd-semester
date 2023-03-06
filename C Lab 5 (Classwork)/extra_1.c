@@ -1,3 +1,4 @@
+// write a c program to input a number and print from 1 to that number in row wise
 #include <stdio.h>
 
 int main() {
