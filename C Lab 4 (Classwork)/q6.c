@@ -13,6 +13,6 @@ int main()
         j*=2;
         n/=10;
     }
-    printf(" Binary number is %d and the decimal number=%d\n",nsave,dec);
+    printf(" Binary number is %d and the decimal number= %d\n",nsave,dec);
     
 }
