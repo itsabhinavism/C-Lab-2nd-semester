@@ -1,18 +1,18 @@
-//q5)Find the factorial of a number
-#include<stdio.h>
-void main(){
-    int n,num;
-    long fact=1;
-    printf("Enter the number :");
-    scanf("%d",&n);
-    num=n;
-    if(n<0){
-        printf("No factorial of negative number.");
+#include <stdio.h>
+void main()
+{
+    int n, nsave, rem, d;
+    int j = 1;
+    int dec = 0;
+    printf("Enter the number in binary: ");
+    scanf("%d", &n);
+    nsave = n;
+    for (; n > 0; n /= 10)
+    {
+        rem = n % 10;
+        d = rem * j;
+        dec += d;
+        j *= 2;
     }
-    else{
-        for(;n>1;n--){
-            fact*=n;
-        }
-        printf("Factorial of %d = %ld\n", num, fact);
-    }
+    printf("Binary number = %d, Decimal number = %d\n", nsave, dec);
 }
