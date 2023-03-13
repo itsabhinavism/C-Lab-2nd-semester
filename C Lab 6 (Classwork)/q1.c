@@ -4,7 +4,7 @@ int main()
 {
     char op;
     int a, b;
-    printf("Enter number operator and another number :\n");
+    printf("Enter number, operator and another number :\n");
     scanf("%d%c%d", &a, &op, &b);
     switch (op)
     {
