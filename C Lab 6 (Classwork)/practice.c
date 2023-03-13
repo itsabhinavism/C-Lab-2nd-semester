@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-float main(){
+int main(){
+int;
+printf;
+scanf;
     
     return 0;
 }
