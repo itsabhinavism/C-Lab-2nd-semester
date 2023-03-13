@@ -2,22 +2,34 @@
 
 int main()
 {
-    int choice;
-    printf("Enter the choice : ");
-    scanf("%d", &choice);
-    switch (choice)
-
+    char op;
+    int a, b;
+    printf("Enter number operator and another number :\n");
+    scanf("%d%c%d", &a, &op, &b);
+    switch (op)
     {
-    case 1:
-        printf("First\n");
-    case 2:
-        printf("Second\n");
-    case 3:
-        printf("Third\n");
+    case '+':
+        printf("Result = %d\n", a + b);
+        break;
+
+    case '-':
+        printf("Result = %d\n", a - b);
+        break;
+
+    case '*':
+        printf("Result = %d\n", a * b);
+        break;
+
+    case '/':
+        printf("Result = %d\n", a / b);
+        break;
+
+    case '%':
+        printf("Result = %d\n", a % b);
+        break;
 
     default:
-        printf("Wrong choice\n");
+        printf("Enter valid opertor\n");
     }
-
     return 0;
 }

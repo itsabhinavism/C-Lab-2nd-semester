@@ -2,26 +2,23 @@
 
 int main()
 {
-    int choice;
-    printf("Enter the choice : ");
-    scanf("%d", &choice);
+    char ch;
+    printf("Enter a alpahabet : ");
+    scanf("%c", &ch);
 
-    switch (choice)
+    switch (ch)
     {
-    case 1:
-        printf("First\n");
-        break;
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
 
-    case 2:
-        printf("Second\n");
-        break;
-
-    case 3:
-        printf("Third\n");
+        printf("Alphabet is a vowel.\n");
         break;
 
     default:
-        printf("Wrong choice\n");
-    } //end of the main
+        printf("Alphabet is a constant.\n");
+    }
     return 0;
 }
