@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main(){
-int a = 9;
-int b = 3;
+int x,y;
 
-printf("a>b : %d\n",a>b);
-printf("a>=b : %d\n",a>=b);
-printf("a<b : %d\n",a<b);
-printf("a<=b : %d\n",a<=b);
-printf("a==b : %d\n",a==b);
-printf("a!=b : %d\n",a!=b);
+int a = (x*x*2) - (5*x) +1;
+int b = (y*y*2);
 
+
+printf("Type the value of x in p(x) : \n ");
+scanf("%d",&x);
+printf("Type the value of y in p(y) : \n ");
+scanf("%d",&y);
 
 
     
