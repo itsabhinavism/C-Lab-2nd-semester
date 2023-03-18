@@ -1,15 +1,15 @@
-//q2)Program to print the larger and smaller of two numbers
-#include<stdio.h>
-int main(){
-    int a,b;
-    printf("Enter the first number: ");
-    scanf("%d",&a);
-    printf("Enter the second number: ");
-    scanf("%d",&b);
-    if(a>b){
-        printf("The larger number is %d and smaller number is %d\n",a,b);
+// q2)Print whether number is even or odd #include<stdio.h>
+int main()
+{
+    int a, b;
+    printf("Enter the number: ");
+    scanf("%d", &a);
+    if (a % 2 == 0)
+    {
+        printf("The number is even");
     }
-    else{
-        printf("The larger number is %d and smaller number is %d\n",b,a);
+    else
+    {
+        printf("The number is odd");
     }
 }
