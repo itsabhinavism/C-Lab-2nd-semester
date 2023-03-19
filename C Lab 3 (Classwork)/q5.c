@@ -1,12 +1,22 @@
-//q5)Find Leap Year or not
+//q6)Grade of student
 #include<stdio.h>
 int main(){
-    int year;
-    printf("Enter the year: ");
-    scanf("%d",year);
-    if(year%4==9 && year%100!=0 || year%400==0){
-        printf("Leap Year\n");
+    float m1,m2,m3,m4,total,per;
+    char grade;
+    printf("Enter the marks of the subjects: \n");
+    scanf("%f""%f""%f""%f",&m1,&m2,&m3,&m4);
+    total=m1+m2+m3+m4;
+    per=total/4;
+    if(per>=85)
+        grade='A';
+    else if(per>=70)
+        grade='B';
+    else if(per>=55)
+        grade='C';
+    else if(per>=40){
+        grade='D';
     }
-    else
-        printf("Not a Leap Year\n");
+    else    
+        grade='E';
+    printf("The percentage is %f\n Grade is %c\n",per,grade);
 }

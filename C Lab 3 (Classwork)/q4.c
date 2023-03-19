@@ -1,20 +1,12 @@
-//q4)Print larger of three numbers
+//q5)Find Leap Year or not
 #include<stdio.h>
 int main(){
-    int a,b,c;
-    printf("Enter the first number: ");
-    scanf("%d",&a);
-    printf("Enter the second number: ");
-    scanf("%d",&b);
-    printf("Enter the third number: ");
-    scanf("%d",&c);
-    if(a>b && a>c){
-        printf("Largest Number is: %d\n",a);
+    int year;
+    printf("Enter the year: ");
+    scanf("%d",&year);
+    if(year%4==0 && year%100!=0 || year%400==0){
+        printf("Leap Year\n");
     }
-    else if(b>c && b>a){
-        printf("Largest Number is: %d\n",b);
-    }
-    else{
-        printf("Largest Number is: %d\n",c);
-    }
+    else
+        printf("Not a Leap Year\n");
 }
