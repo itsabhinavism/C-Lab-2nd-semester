@@ -7,6 +7,6 @@ while(i<=10)
 {
 printf("%d\t", i); 
 i=i+1;} /* Statement that changes the value of condition */
-printf("\n");
+// printf("\n");
 return 0;
 }
