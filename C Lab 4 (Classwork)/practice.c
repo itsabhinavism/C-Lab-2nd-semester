@@ -2,26 +2,14 @@
 
 int main()
 {
-    int n, num;
-    long f = 1;
-
-    printf("Enter the number -  ");
+    int n, count = 0, rem;
+    printf("Enter - ");
     scanf("%d", &n);
-
-    num = n;
-    if (n < 0)
+    do
     {
-        printf("No factorial of negative number.");
-    }
-    else
-    {
-        while (n > 0)
-        {
-            f *= n;
-            n--;
-        }
-        printf("Factotrial of %d = %ld\n",num,f);
-    }
+        n /= 10;
+        count++;
+    } while (n >0);
+    printf("Number of the digits - %d\n", count);
 
-    return 0;
 }

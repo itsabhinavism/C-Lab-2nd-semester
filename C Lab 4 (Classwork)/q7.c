@@ -4,9 +4,9 @@ int main(){
     do
     {
         printf("%d\t",i);
-        i=i+1;
+        i=i+2;
         
         
-    } while (i<=10);
+    } while (i<=15);
     printf("\n");    
 }
