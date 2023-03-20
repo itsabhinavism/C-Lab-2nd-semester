@@ -5,10 +5,9 @@ int n,rem,sum=0;
 printf("Type - ");
 scanf("%d",&n);
 
-while(n>0) {
+while(n!=0) {
 rem=n%10;
-n/=10;
-sum += rem;
+sum = (n/10) + rem;
 }
 
 printf("the sum - %d",sum);
