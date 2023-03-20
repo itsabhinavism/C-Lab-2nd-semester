@@ -2,14 +2,21 @@
 
 int main()
 {
-    int n, count = 0, rem;
-    printf("Enter - ");
-    scanf("%d", &n);
-    do
-    {
-        n /= 10;
-        count++;
-    } while (n >0);
-    printf("Number of the digits - %d\n", count);
+    int number, sum = 0;
 
+    printf("Enter numbers to add (enter 0 to finish):\n");
+
+    while (1)
+    {
+        scanf("%d", &number);
+        if (number == 0)
+        {
+            break;
+        }
+        sum += number;
+    }
+
+    printf("The sum is %d\n", sum);
+
+    return 0;
 }

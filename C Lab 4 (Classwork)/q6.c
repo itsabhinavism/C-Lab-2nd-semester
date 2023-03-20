@@ -1,18 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int n,nsave,rem,d,j=1,dec=0;
-    printf("Enter the number in binary.\n");
-    scanf("%d",&n);
-    nsave=n;
-    while (n>0)
+    int binary, decimal = 0, base = 1, remainder;
+
+    printf("Enter a binary number: ");
+    scanf("%d", &binary);
+
+    while (binary > 0)
     {
-        rem=n%10;
-        d=rem*j;
-        dec+=d;
-        j*=2;
-        n/=10;
+        remainder = binary % 10;
+        decimal += remainder * base;
+        base *= 2;
+        binary /= 10;
     }
-    printf(" Binary number is %d and the decimal number= %d\n",nsave,dec);
-    
+
+    printf("Decimal equivalent: %d\n", decimal);
+
+    return 0;
 }
