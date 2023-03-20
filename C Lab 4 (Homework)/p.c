@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main () {
-int n,rem,sum=0;
+int n,rem,prod=1;
 
 printf("Type - ");
 scanf("%d",&n);
@@ -8,9 +8,9 @@ scanf("%d",&n);
 while(n>0) {
 rem=n%10;
 n/=10;
-sum += rem;
+prod *= rem;
 }
 
-printf("the sum - %d",sum);
+printf("the prod - %d",prod);
     return 0;
 }
