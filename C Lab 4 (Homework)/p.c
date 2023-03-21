@@ -1,13 +1,17 @@
 #include <stdio.h>
 
-int main(){
-int n, fact=1;
-printf("n - ");
-scanf("%d",&n);
-while(n>1) {
-    fact*=n;
-    n--;
-}
-    printf("%d",fact);
+int main()
+{
+    int n, i = 1, fact = 1;
+
+    printf("Type - ");
+    scanf("%d", &n);
+
+    while (n != 0)
+    {
+        fact *= n;
+        n++;
+    }
+    printf("%d", fact);
     return 0;
 }
