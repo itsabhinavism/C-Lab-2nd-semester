@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-int main()
-{
-    int n, i = 1, fact = 1;
+int main(){
+int t1=0,t2=1,nextTerm=0,n;
 
-    printf("Type - ");
-    scanf("%d", &n);
+printf("Type the number - ");
+scanf("%d",&n);
 
-    while (n != 0)
+nextTerm = t1+t2;
+
+while (nextTerm<=n)
     {
-        fact *= n;
-        n++;
+        printf("%d\t",nextTerm );
+        t1=t2;
+        t2=nextTerm;
+        nextTerm= t1+ t2;
     }
-    printf("%d", fact);
     return 0;
 }
