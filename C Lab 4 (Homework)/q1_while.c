@@ -1,4 +1,4 @@
-// p1)Multiply two positive numbers without using * operator. 
+// p1)Multiply two positive numbers without using * operator.
 #include <stdio.h>
 int main()
 {
@@ -9,7 +9,8 @@ int main()
 
     while (y != 0)
     {
-        product += x; y--;
+        product += x;
+        y--;
     }
     printf("Product = %d\n", product);
 }

@@ -1,16 +1,13 @@
-#include<stdio.h>
-int main () {
-int n,rem,prod=1;
+#include <stdio.h>
 
-printf("Type - ");
+int main(){
+int n, fact=1;
+printf("n - ");
 scanf("%d",&n);
-
-while(n>0) {
-rem=n%10;
-n/=10;
-prod *= rem;
+while(n>1) {
+    fact*=n;
+    n--;
 }
-
-printf("the prod - %d",prod);
+    printf("%d",fact);
     return 0;
 }
