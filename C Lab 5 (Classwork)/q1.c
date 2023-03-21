@@ -1,3 +1,4 @@
+// q1)Print Armstrong numbers from 100 to 999.
 #include <stdio.h>
 int main()
 {

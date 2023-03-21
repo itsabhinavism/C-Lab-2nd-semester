@@ -1,3 +1,4 @@
+// q2)Find the sum of digits of a number until the sum is reduced to 1 digit. Example: 538769->38->11->2
 #include <stdio.h>
 int main()
 {

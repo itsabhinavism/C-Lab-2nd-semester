@@ -1,3 +1,4 @@
+// q3)Check whether a number is prime or not.
 #include <stdio.h>
 int main()
 {

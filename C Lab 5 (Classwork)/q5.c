@@ -1,3 +1,4 @@
+// q5)Convert a binary number to a decimal number
 #include <stdio.h>
 void main()
 {

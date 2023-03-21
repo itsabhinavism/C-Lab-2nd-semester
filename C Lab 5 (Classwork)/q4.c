@@ -1,5 +1,6 @@
+// q4)Find the factorial of a number.
 #include <stdio.h>
-void main()
+voidmain()
 {
     int n, num;
     long fact = 1;
