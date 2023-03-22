@@ -9,9 +9,9 @@ int main()
 
     while (n > 0)
     {
-        rem = n % 10;
-        n /= 10;
-        sum += rem;
+        rem = n % 10; printf("%d\n",rem);
+        n /= 10; printf("%d\n",n);
+        sum += rem; 
     }
 
     printf("The sum of the digits are : %d\n", sum);
