@@ -5,12 +5,13 @@ int main()
     int num, sum = 0;
     printf("Enter the number: ");
     scanf("%d", &num);
+
     while (num > 0)
     {
-        int mod = num % 10;
+        int mod = num % 10;  
         printf("%d\n", mod);
-        sum += mod;
-        num = num / 10;
+        sum += mod; //printf ("%d\t",sum);
+        num = num / 10;  //printf ("%d\t",num);
     }
 
     if (sum % 9 == 0)
