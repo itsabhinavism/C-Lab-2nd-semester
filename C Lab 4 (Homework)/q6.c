@@ -8,10 +8,10 @@ int main()
 
     while (num > 0)
     {
-        int mod = num % 10;  
-        printf("%d\n", mod);
-        sum += mod; //printf ("%d\t",sum);
-        num = num / 10;  //printf ("%d\t",num);
+        int mod = num % 10;
+        printf("%d\n", mod);   
+        num = num / 10;
+         sum += mod; //used to find out about its divisibilty with 9
     }
 
     if (sum % 9 == 0)
