@@ -10,12 +10,12 @@ int main()
     {
         int mod = num % 10;
         printf("%d\n", mod);   
-        num = num / 10;
-         sum += mod; //used to find out about its divisibilty with 9
+        num = num / 10;      
+        sum += mod; //used to find out about its divisibilty with 9
     }
 
     if (sum % 9 == 0)
-        printf("It is divisible by 9");
+        printf("It is divisible by ");
     else
     {
         printf("It is not divisible by 9");
