@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 void main()
 {
     int arr[100];
@@ -22,6 +22,4 @@ void main()
 
     for (i = 0; i < n + 1; i++)
         printf("%d, ", arr[i]);
-    
-    
 }
