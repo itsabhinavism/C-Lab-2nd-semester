@@ -7,7 +7,7 @@ int main()
     scanf("%d", &a);
     for (int i = 0; i < a; i++)
     {
-        printf("Abhik Samanta\n");
+        printf("Abhinav Anand\n");
     }
     return 0;
 }
