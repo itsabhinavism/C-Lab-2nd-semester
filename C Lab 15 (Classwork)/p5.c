@@ -4,12 +4,11 @@ void main()
     int i, j, n;
     printf("type n - ", n);
     scanf("%d", &n);
-int p = 1;
 
     for (i = 1; i <= n; i++)
     {
         for (j = 1; j <= i; j++)
-            printf("%3d", p++);
-        printf("\n"); // for next line of pyramid.//
+            printf("%d", i+j);
+        printf("\n"); //for next line of the pyramid//
     }
 }
