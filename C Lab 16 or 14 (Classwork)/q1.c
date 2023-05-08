@@ -26,8 +26,7 @@ void main()
                 ++count;
                 a[j] = -1;
             }
-            
         }
-        printf("%d available %d times\n",a[i],count);
+        printf("%d available %d times\n", a[i], count);
     }
 }
